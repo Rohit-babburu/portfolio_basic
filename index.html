@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(21, 20, 22);
+        color: azure;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(32, 18, 18);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      .left {
+        font-size: 1.8rem;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      nav ul li a:hover {
+        color: rgb(54, 120, 178);
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+        align-items: center;
+      }
+      .rightSection img {
+        height: 100%;
+        width: 133%;
+        margin: 1px 0;
+      }
+      .purple {
+        color: chocolate;
+      }
+      #element {
+        color: chocolate;
+      }
+      main hr {
+        border: 0;
+        background: white;
+        height: 1px;
+        margin: 40px 80px;
+      }
+      .secondSection {
+        margin: auto;
+        max-width: 80vw;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 2rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secondSection .Box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 55px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 80px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .vertical .image-top {
+        width: 23px;
+        position: relative;
+        left: -12px;
+        top: -32px;
+      }
+      .vertical-one-title {
+        position: relative;
+        top: 50px;
+        left: -39px;
+        width: 150px;
+      }
+      .vertical-one-desc {
+        position: relative;
+        top: 50px;
+        left: -39px;
+        width: 150px;
+        font-size: x-small;
+        color: gray;
+      }
+      .vertical-two-title {
+        position: relative;
+        top: 78px;
+        left: -21px;
+        width: 178px;
+      }
+      .vertical-two-desc {
+        position: relative;
+        top: 83px;
+        left: -20px;
+        font-size: x-small;
+        color: gray;
+        width: 135px;
+      }
+      .vertical-one-desc .avistos {
+        position: relative;
+        top: 0px;
+        margin: 10px 0;
+        height: 50px;
+        width: 116px;
+      }
+      .vertical-two-desc .amazon {
+        position: relative;
+        width: 100px;
+        left: 0px;
+        top: 7px;
+        margin: 15px 0;
+      }
+      .vertical-three-title {
+        width: 180px;
+        position: relative;
+        top: 79px;
+        left: -30px;
+      }
+      .vertical-three-desc .koiReader {
+        position: relative;
+        height: 39px;
+        width: 106px;
+        top: 92px;
+        left: -29px;
+      }
+      .vertical-three-desc {
+        position: relative;
+        font-size: x-small;
+        color: gray;
+        width: 130px;
+        top: 108px;
+        left: -23px;
+      }
+      .vertical-three-desc .koiReader {
+       position: relative;
+       height: 39px;
+       width: 106px;
+       top: -15px;
+       left: -6px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rohit Babburu's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello,<br />
+          I'm <span class="purple">Rohit Babburu.</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection"><img src="devPng.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Past Experience</h1>
+        <div class="Box">
+          <div class="vertical">
+            <img src="workexp.png" class="image-top" alt="" />
+            <div class="vertical-one-title">Computer Vision(2020-2022)</div>
+            <div class="vertical-one-desc">
+              <img class="avistos" src="avistos.png" alt=""> Avistos Innovative
+              Solution Pvt.ltd. I worked as a data annotator which is a work to
+              enhance AI tools to recognise the objects and its measurments
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-two-title">GO-AI Associate(2022-2023)</div>
+            <div class="vertical-two-desc">
+              <img class="amazon" src="amazon.png" alt="" />
+              Amazon Global Operations - Artificial Intelligence is a team for
+              improving the automation of Amazon Robotic.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-three-title">Data Annotator Intern(2023-present)</div>
+            <div class="vertical-three-desc">
+              <img class="koiReader" src="koiReader.png" alt=""/>
+              Data Annotator Inter. Worked on  Inbound and Outbound item detection and labelling them.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 200,
+      });
+    </script>
+  </body>
+</html>
